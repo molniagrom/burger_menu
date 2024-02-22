@@ -1,0 +1,174 @@
+
+*,
+* ::before,
+* ::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+li{
+   list-style: none;
+}
+
+a,
+a:visited{
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   
+   font-weight: inherit;
+   font-size: inherit;
+     
+}
+
+
+img {
+   vertical-align: top;
+}
+
+html{
+ font-size: 20px;
+}
+body{
+   font-family: "Roboto";
+   line-height: 1;
+   color: #000000;
+   background: #333;
+   font-size: 30px;
+
+}
+
+.wrapper {  
+   min-height: 100%;
+   overflow: hidden;
+   padding: 50px;
+   text-align: center;
+}
+
+
+
+body {
+    background-color: #333;
+}
+
+// ...............................................................................
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .some-menu {
+//     margin: 0px auto;
+//     max-width: 800px;
+//     background-color: #7a956b;
+//     display: flex;
+//     align-items: center;
+//     padding: 10px 15px;
+//     gap: 15px;
+//     // .some-menu__icon
+
+//     &__icon {
+//         flex: 0 0 30px;
+//         height: 20px;
+//         position: relative;
+        
+//         div {
+//             position: absolute;
+//             top: 50%;
+//             left: 0;
+//             height: 2px;
+//             width: 100%;
+//             background-color: #000000;
+//         }
+//         &::before,
+//         &::after {
+//       content:"";
+//       position: absolute;
+//       width: 100%;
+//       left: 0; 
+//       height: 2px;
+//   background-color: #333;
+//       }
+//       &::before{
+//         top: 0;
+//       }
+//       &::after{
+//         bottom: 0;
+//       }
+//     }
+
+//     // .some-menu__body
+
+//     &__body {
+//           flex: 1 1 auto;
+//     }
+
+//     // .some-menu__list
+
+//     &__list {
+//         display: flex;
+//         gap: 15px;
+      
+//     }
+
+//     // .some-menu__item
+
+//     &__item {
+//     }
+
+//     // .some-menu__
+
+//     &__link {
+//         color: #fff;
+//         text-transform: uppercase;
+//     }
+// }
